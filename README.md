@@ -18,3 +18,9 @@ This repository is built with HTML, CSS, JS, jQuery and AJAX. The dependencies y
 - Body-Parser
 - Chance
 - MD5
+
+## ScreenShots
+
+!["Tweeter front page"](https://github.com/brainden/tweeter/blob/master/docs/tweeter.png?raw=true)
+!["Tweeter profile display"](https://github.com/brainden/tweeter/blob/master/docs/tweet-box.png)
+!["Screenshot of tweeter tablet view"](https://github.com/brainden/tweeter/blob/master/docs/table-view.png?raw=true)
