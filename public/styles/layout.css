@@ -3,11 +3,17 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
+/* * {
+	border: 1px dotted red;
+} */
+
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
 }
 
 /*
@@ -15,11 +21,26 @@ html {
  */
 
 body {
-  color: #545149;
-  background-color: #f4f1ec;
-  font-size: 24px;
+	color: #545149;
+	background-color: #f4f4f4;
+	font-size: 24px;
+	font-family: "Bungee", "Source Sans Pro", "sans-serif";
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
+ */
+
+main {
+	margin: 0 auto;
+	/* width: 90%; */
+	overflow: hidden;
+	margin-top: 180px;
+	background-color: transparent;
+	margin-right: 3%;
+	padding-top: 66px;
+}
+
+/*
+ * Tablet css layout
  */

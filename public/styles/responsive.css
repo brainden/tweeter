@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+	.main-avatar-and-name {
+		width: 100%;
+		background-color: lavender;
+		margin-left: 0%;
+	}
+	.container {
+		width: 66.7%;
+		margin: auto;
+	}
+}

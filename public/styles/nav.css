@@ -1,0 +1,51 @@
+/* Created from scratch */
+
+.bg-color {
+	background-color: #fabd2d;
+}
+
+#navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 1.5em;
+	width: 100%;
+	background-color: #4056a1;
+	color: #ffffff;
+	height: 120px;
+	z-index: 1;
+}
+
+.tweeter {
+	font-size: 1.5em;
+	float: left;
+}
+
+.new-tweet-section {
+	float: right;
+	display: block;
+}
+
+.write-a-new-tweet {
+	display: block;
+}
+
+.arrow-image {
+	width: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-5px);
+	}
+}

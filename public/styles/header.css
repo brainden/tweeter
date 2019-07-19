@@ -1,0 +1,25 @@
+#header {
+	height: 400px;
+	width: 100%;
+}
+
+.image {
+	padding-top: 125px;
+	margin-bottom: 0px;
+	text-align: center;
+	size: 5cm;
+}
+
+.your-name {
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 0px;
+}
+
+.main-avatar-and-name {
+	width: 50%;
+	background-color: lavender;
+	float: left;
+	margin-top: 5%;
+	margin: 5%;
+}
